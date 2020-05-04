@@ -1,0 +1,52 @@
+.Meme {
+  position: relative;
+  max-width: 700px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-size: 1em;
+}
+
+.Meme-top {
+  top: 0;
+}
+
+.Meme-bottom {
+  bottom: 0;
+}
+
+.Meme-image {
+  width: 100%;
+}
+
+.Meme-text {
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: white;
+  text-shadow:
+  3px 3px 0 #000,
+  -3px -3px 0 #000,
+  3px -3px 0 #000,
+  -3px 3px 0 #000,
+  0 3px 0 #000,
+  0 -3px 0 #000,
+  3px 0 0 #000,
+  -3px 0 0 #000;
+  -webkit-user-select: none;      
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Meme button {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+/* https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2018/01/12201051/cute-puppy-body-image.jpg */
